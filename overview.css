@@ -1,0 +1,72 @@
+  body{
+                                    background-image: url("../images/loginbg.jpg");
+                                 background-repeat: no-repeat;
+                                 background-size:cover;
+                                }
+                               /* .class2{
+                                    background-image:url("../images/loginbg.jpg");
+                                    background-size:1600px 1200px;
+                                    padding:-7px 0px;
+                                    background-repeat:no-repeat;}*/
+
+    .container{
+        width:690px;
+        height:450px;
+    }
+           
+                h1{
+                        color:black;
+                        font-family:verdana;
+                        font-size:150%;
+                        text-align:center;
+
+                }
+                p{
+                    text-align:center;
+                    left: 30px;
+                }
+                
+                    
+                        .nav{
+                            width:1100px;
+                            height:70px;
+                            background:grey;
+                            margin-top:10px;
+                            OPACITY:0.5;
+                            position:fixed;
+                           
+                            
+      
+                        }
+                      
+                        ul {
+                            list-style:none;
+                            /*display:inline;*/
+                            font-weight:bold;
+                            padding:10px;
+                          position:absolute; 
+                          align-items:center;   
+                        
+                        }
+                        li{
+                            float:left;
+                            margin-top:-8px;
+                            
+                        }
+                       
+                        
+                        .an{
+                          width:150px;
+                          height:30px;
+                          display:block;
+                          text-decoration:none;
+                           margin-top:10px;
+                           font-size:17px;
+                           border-radius:10px;
+                           font-family: Georgia;
+                        color:white;}
+                           a:hover{
+                            background:grey;
+                            transition:0.6s;
+                        }
+  
