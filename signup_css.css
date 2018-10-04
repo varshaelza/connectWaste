@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("../images/bg1.jpg");
+    background-size:1920px 1200px;
+}/*body {
+    background-image: url("../images/loginbg.jpg");
+    background-size: COVER;*/
+}
+/*.loginbox{position:absolute;
+top:30%;
+left:50%;
+transform:translate(-50%,-50%);
+width:350px;
+height:500px;
+box-sizing:border-box;
+background:rgb(175, 167, 167);
+opacity:.9;
+padding:60px 40px;}
+.loginbox p{
+    margin:0;
+    padding: 0;
+    font-weight:bold;
+    font-family:verdana;
+    color:#fff;}
+
+    .loginbox input{
+        width:100%;
+        border:1px solid black;
+    
+        height:30px;
+        font-size:14px;
+        background:rgb(117, 109, 109);
+        margin:8px;
+         border-radius:4px;}
+    
+    .loginbox input[type="submit"]
+        {border:1px;
+        outline:none;
+        height :40px;
+        color:white;
+        font-size: 17px;
+        background:rgb(51, 50, 50);
+        cursor:pointer;
+        }
+    ::placeholder{
+            color:rgb(202, 189, 189);
+            opacity:1;
+            font-size:17px;
+        }
+       
+
+    form{
+           font-size:100%;
+           color:white;}
+    
+    .user
+           {width:100px;
+           height:100px;
+    border-radius:50%;
+    overflow:hidden;
+    position:absolute;
+    top:calc(-100px/2);
+    left:calc(50% -50px);}
+        
+  */      
+        h2{
+        
+        margin:0;
+          padding :0 0 20px;
+          color:white; 
+          text-align: center; 
+        }
+         
+          
+          .nav{
+              width:570px;
+              height:70px;
+              background:black;
+              margin-top:10px;
+              OPACITY:0.4;
+
+          }
+        
+          ul {
+              list-style:none;
+              /*display:inline;*/
+              font-weight:bold;
+              padding:10px;
+            position:absolute;   
+              
+          }
+          li{
+              float:left;
+              margin-top:-8px;
+          }
+         
+          
+          .an{
+            width:150px;
+            height:30px;
+            display:block;
+            text-decoration:none;
+             margin-top:10px;
+             font-size:17px;
+             border-radius:10px;
+             font-family: Georgia;
+
+             text-align:center;
+              color:WHITE;}
+              
+              a:hover{
+                  background:grey;
+                  transition:0.6s;
+              }
+
+              .anfp{
+               
+                text-decoration:none;
+                 font-size:14px;
+                 font-family: verdana;
+
+                 text-align:center;
+                  }
+          
+        
+.sign_up{
+    /*padding:20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 7px;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    opacity:0.9;
+    background: transparent;
+    font-family:Verdana;
+    font-size:14px;
+    background-color: rgb(175, 167, 167);*/
+    width:400px;
+    padding: 20px;
+    height: 480px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
+}
+.sign_up input,select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+    background: rgb(117, 109, 109) 
+
+}
+.sign_up h1{
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+.sign_up input[type=submit]{
+    width:100%;
+    border:1px;
+    font-size: 17px;
+    cursor:pointer;
+    color:white;
+    height: 45px;
+    background: rgb(51, 50, 50);
+}
+.sign_up input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+}
+::placeholder{color: rgb(202, 189, 189);
+    opacity: 1;
+    font-size: 16px;
+    }
+#username{
+    width:49%;
+    padding-right: 20px;
+    
+}
+#passsword{
+    width:49.5%;
+}
+#re_password{
+    width:49%;
+}
+#website{
+    width:100%;
+}
+#email{
+    width:100%;
+}
+#profile{
+    width: 100%;
+}
+input[type=submit]:hover{
+    background: grey;
+    transition:0.6s
+}
